@@ -42,7 +42,7 @@ Any expression can be used in an aggregation, including user-defined functions.
 
 ### Time-Series Joins
 
-Empirical can join Dataframes by most the recent timestamp.
+Empirical can join Dataframes by the most recent timestamp.
 
 ```
 >>> join trades, quotes on symbol asof timestamp
