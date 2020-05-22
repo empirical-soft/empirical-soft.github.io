@@ -1,3 +1,8 @@
+#### 0.4.0	(2020-05-22)
+
+- Added trig functions
+- Fixed bug on nested query/join/sort
+
 #### 0.3.0	(2019-05-31)
 
 - Enabled automated deploy
