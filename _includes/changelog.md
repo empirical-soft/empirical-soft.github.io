@@ -1,3 +1,7 @@
+#### 0.4.1	(2020-05-23)
+
+- Can handle pre-epoch timestamps
+
 #### 0.4.0	(2020-05-22)
 
 - Added trig functions
