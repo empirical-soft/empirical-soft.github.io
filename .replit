@@ -1,3 +1,0 @@
-language = "cpp"
-run = "bash ./setup_repl.sh && clear && ./empirical"
-
