@@ -1,3 +1,13 @@
+## Empirical Website
+
+This is the source for [empirical-soft.com](https://www.empirical-soft.com). It uses [Jekyll](https://jekyllrb.com) to generate the site from the included [Markdown](https://jekyllrb.com/docs/configuration/markdown/) files. Hosting is provided by [GitHub Pages](https://pages.github.com).
+
+To build this locally, just run Jekyll in the shell.
+
+```
+$ bundle exec jekyll serve
+```
+
 ## Try Empirical Online
 
 [Open this repo with repl.it](https://repl.it/github/empirical-soft/empirical-soft.github.io). Then click the green **run** button at the top.
