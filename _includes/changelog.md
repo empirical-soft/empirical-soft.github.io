@@ -1,3 +1,10 @@
+#### 0.5.0	(2020-08-03)
+
+- Added `compile()` function
+- Added compile-time function evaluation (CTFE)
+- Added function traits and computation modes
+- Prohibit reassignment of immutable variables
+
 #### 0.4.2	(2020-05-26)
 
 - Added `type_of()` and `columns()`
