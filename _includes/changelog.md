@@ -1,3 +1,8 @@
+#### 0.5.1	(2020-08-05)
+
+- Added function templates for literals
+- Fixed bug in how local variables are handled during CTFE
+
 #### 0.5.0	(2020-08-03)
 
 - Added `compile()` function
