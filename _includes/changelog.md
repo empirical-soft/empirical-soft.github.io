@@ -1,3 +1,8 @@
+#### 0.5.2	(2020-08-06)
+
+- Added type parameters for templates
+- Fixed bug when using templates in REPL
+
 #### 0.5.1	(2020-08-05)
 
 - Added function templates for literals
