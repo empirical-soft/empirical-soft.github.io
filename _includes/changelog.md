@@ -1,3 +1,8 @@
+#### 0.5.3	(2020-08-07)
+
+- Added templates for data definitions
+- Much faster CTFE
+
 #### 0.5.2	(2020-08-06)
 
 - Added type parameters for templates
