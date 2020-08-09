@@ -1,3 +1,7 @@
+#### 0.5.4	(2020-08-08)
+
+- Added generic functions
+
 #### 0.5.3	(2020-08-07)
 
 - Added templates for data definitions
