@@ -1,3 +1,8 @@
+#### 0.5.5	(2020-08-11)
+
+- Added expression syntax for types and functions
+- Types no longer have to be upper case (though still a good idea)
+
 #### 0.5.4	(2020-08-08)
 
 - Added generic functions

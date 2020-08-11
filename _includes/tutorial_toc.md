@@ -2,6 +2,7 @@
    * [Magic commands](#magic-commands)
 * [Expressions and Variables](#expressions-and-variables)
 * [Types](#types)
+   * [User-defined types](#user-defined-types)
 * [Arrays](#arrays)
 * [Functions](#functions)
 * [Control Flow](#control-flow)
