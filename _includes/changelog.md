@@ -1,3 +1,8 @@
+#### 0.5.6	(2020-08-14)
+
+- Added inline functions
+- Fixed bugs on global variables
+
 #### 0.5.5	(2020-08-11)
 
 - Added expression syntax for types and functions
