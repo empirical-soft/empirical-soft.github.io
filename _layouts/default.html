@@ -17,19 +17,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="assets/css/gh-fork-ribbon.css">
+    <link rel="stylesheet" href="/assets/css/gh-fork-ribbon.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
   </head>
   <body>
     <a class="github-fork-ribbon right-top" href="https://repl.it/github/empirical-soft/replit" data-ribbon="Try Online" title="Try Online">Try Online</a>
 
     <header role="banner">
-      <a href="index.html"><img src="logo.png" width="600" alt="Empirical Software Solutions, LLC"/></a>
+      <a href="index.html"><img src="/logo.png" width="600" alt="Empirical Software Solutions, LLC"/></a>
     </header>
 
     <main id="content" class="main-content" role="main">
       {% include banner.md %}
+      {% if page.include_title %}
+        <h2>{{ page.title }}</h2>
+      {% endif %}
       {{ content }}
       <footer class="site-footer">
         {% include banner.md %}

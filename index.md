@@ -45,3 +45,16 @@ The closest timestamp within a tolerance is also possible.
 ```
 >>> join trades, events asof timestamp nearest within 3s
 ```
+
+----
+
+## Blog
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
