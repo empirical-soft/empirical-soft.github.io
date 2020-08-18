@@ -7,7 +7,7 @@
 Empirical can infer a Dataframe's type if the source is known at compile time, such as in a REPL.
 
 ```
->>> let trades = load$("trades.csv"), quotes = load$("quotes.csv")
+>>> let trades = load("trades.csv"), quotes = load("quotes.csv")
 ```
 
 New types are easy to define since column-oriented Dataframes can be created on-the-fly.
@@ -45,14 +45,3 @@ The closest timestamp within a tolerance is also possible.
 ```
 >>> join trades, events asof timestamp nearest within 3s
 ```
-
-----
-
-<br/>
-
-<center>
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hoY5IKQliBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-<p><a href="demo.html">(Demo Video Transcript)</a></p>
-</center>

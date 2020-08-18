@@ -1,3 +1,10 @@
+#### 0.6.0	(2020-08-17)
+
+- Migrated `load$()` to `load()`
+- Added macros
+- Added `exit()` and `argv`
+- Added int-to-float operators
+
 #### 0.5.6	(2020-08-14)
 
 - Added inline functions
