@@ -1,3 +1,7 @@
+#### 0.6.1	(2020-08-19)
+
+- Fixed bug regarding constructors on data expressions
+
 #### 0.6.0	(2020-08-17)
 
 - Migrated `load$()` to `load()`
