@@ -1,3 +1,8 @@
+#### 0.6.2	(2020-08-20)
+
+- Added generic form of `String()` and `print()`
+- Added specialization of generic functions
+
 #### 0.6.1	(2020-08-19)
 
 - Fixed bug regarding constructors on data expressions
