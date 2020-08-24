@@ -1,3 +1,10 @@
+#### 0.6.3	(2020-08-23)
+
+- Added `reverse()` and `len()`
+- Added generic placeholders
+- Added quick documentation in REPL via `?`
+- Suspend REPL with Ctrl-Z (POSIX)
+
 #### 0.6.2	(2020-08-20)
 
 - Added generic form of `String()` and `print()`
