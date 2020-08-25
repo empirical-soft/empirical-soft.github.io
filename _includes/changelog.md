@@ -1,3 +1,7 @@
+#### 0.6.4	(2020-08-24)
+
+- Fixed bug in how generic placeholders work with inferred Dataframe types
+
 #### 0.6.3	(2020-08-23)
 
 - Added `reverse()` and `len()`
