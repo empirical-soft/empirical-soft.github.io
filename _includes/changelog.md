@@ -1,3 +1,7 @@
+#### 0.6.5	(2020-08-25)
+
+- Fixed bug when overloading placeholder generics
+
 #### 0.6.4	(2020-08-24)
 
 - Fixed bug in how generic placeholders work with inferred Dataframe types
