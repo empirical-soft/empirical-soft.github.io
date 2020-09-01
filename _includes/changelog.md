@@ -1,3 +1,7 @@
+#### 0.6.6	(2020-08-31)
+
+- Fixed bug where a user error in the REPL caused global variables to fail
+
 #### 0.6.5	(2020-08-25)
 
 - Fixed bug when overloading placeholder generics
