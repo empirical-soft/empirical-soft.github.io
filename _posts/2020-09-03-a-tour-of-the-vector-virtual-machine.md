@@ -275,7 +275,7 @@ And then we change the addition line to:
 z = (is_int_nil(x) || is_int_nil(y)) ? nil_value<V>() : x + y;
 ```
 
-With an optimizing C++ compiler, the `is_int_nil()` guard will disappear for floating points, leaving only the addition. The `nan` propagation is done entirely in hardware.
+With an optimizing C++ compiler, the `is_int_nil()` guard will disappear for floating points, leaving only the addition. The `nan` propagation is done entirely in hardware. (I first saw this trick in [Python datatable](https://github.com/h2oai/datatable), though I don't know its origins.)
 
 ### Repr
 
