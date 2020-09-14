@@ -1,3 +1,8 @@
+#### 0.6.7	(2020-09-14)
+
+- Added `mean()`, `variance()`, and `stddev()`
+- Added `len()` and `reverse()` for `String`
+
 #### 0.6.6	(2020-08-31)
 
 - Fixed bug where a user error in the REPL caused global variables to fail
