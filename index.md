@@ -136,6 +136,18 @@ let trades = csv_load{Trade}(argv[1])
 
 ----
 
+## FAQ
+
+### How is this different from Julia or q/kdb+?
+
+Empirical is *statically typed*, which prevents many common programming errors.
+
+### Why is this a new language instead of a library in an existing language?
+
+Embedding Dataframes into an existing language would not be possible. Empirical's Dataframes are statically typed and can be inferred from an external source.
+
+----
+
 ## Blog
 
 <ul>

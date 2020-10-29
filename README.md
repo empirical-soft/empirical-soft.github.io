@@ -15,3 +15,15 @@ $ make clean
 ```
 
 Uploading changes via git will automatically build the website, so pushed commits go live immediately.
+
+----
+
+### Publishing a blog entry
+
+Make a copy of `_drafts/sample.md` and edit away. Then run:
+
+```
+./publish.sh _drafts/my_post.md
+```
+
+See Jekyll's [notes](https://jekyllrb.com/docs/posts/) for more info.

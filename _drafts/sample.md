@@ -3,10 +3,8 @@ title: "Title here"
 include_title: true
 ---
 
-Run
+Content here. Don't repeat the title.
 
-```
-./publish.sh _drafts/my_post.md
-```
+### Heading
 
-See [notes](https://jekyllrb.com/docs/posts/) for more info.
+More content.
