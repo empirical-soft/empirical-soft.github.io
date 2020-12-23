@@ -1,3 +1,7 @@
+#### 0.6.9	(2020-12-23)
+
+- Fix for GitHub Actions: include the version number in the built binary
+
 #### 0.6.8	(2020-12-22)
 
 - Migrated CI to GitHub Actions

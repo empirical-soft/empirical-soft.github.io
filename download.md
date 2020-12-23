@@ -1,6 +1,6 @@
 ---
 title: Download
-release: 0.6.8
+release: 0.6.9
 ---
 
 These are self-contained binaries. Just run them directly from the command line.
