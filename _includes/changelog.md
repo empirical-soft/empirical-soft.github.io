@@ -1,3 +1,7 @@
+#### 0.6.8	(2020-12-22)
+
+- Migrated CI to GitHub Actions
+
 #### 0.6.7	(2020-09-14)
 
 - Added `mean()`, `variance()`, and `stddev()`
